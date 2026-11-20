@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.gamestop.controller.ConsoleController">
+   <children>
+      <BorderPane layoutX="182.0" layoutY="107.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <VBox prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#onOpenGames" text="Igre" />
+                     </children>
+                  </HBox>
+                  <Label />
+                  <HBox alignment="CENTER" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="Pretraga:" />
+                        <TextField fx:id="searchField" prefWidth="250.0" promptText="Pretraži konzole..." />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <TableView fx:id="consoleTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Naziv" />
+                  <TableColumn fx:id="manufacturerColumn" prefWidth="75.0" text="Proivođač" />
+                  <TableColumn fx:id="storageColumn" prefWidth="75.0" text="Pohrana GB" />
+                  <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Cijene EUR" />
+                  <TableColumn fx:id="stockColumn" prefWidth="75.0" text="Zaliha" />
+              </columns>
+            </TableView>
+         </center>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onAddConsole" text="Dodaj konzolu" />
+                  <Button mnemonicParsing="false" onAction="#onEditConsole" text="Uredi konzolu" />
+                  <Button mnemonicParsing="false" onAction="#onDeleteConsole" text="Obriši konzolu" />
+                  <Button mnemonicParsing="false" onAction="#onLogout" text="Odjava" />
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

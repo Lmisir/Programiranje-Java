@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.gamestop.controller.GameController">
+   <children>
+      <BorderPane layoutX="388.0" layoutY="43.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER_LEFT">
+               <children>
+                  <Label text="GameStop Manager" />
+                  <Button mnemonicParsing="false" onAction="#onOpenConsole" text="Konzole" />
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="Pretraga:" />
+                        <TextField fx:id="searchField" promptText="Pretraži igre..." />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <TableView fx:id="gameTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Naziv" />
+                  <TableColumn fx:id="platformColumn" prefWidth="75.0" text="Platforma" />
+                  <TableColumn fx:id="genreColumn" prefWidth="75.0" text="Žanr" />
+                  <TableColumn fx:id="priceColumn" prefWidth="75.0" text="Cijena EUR" />
+                  <TableColumn fx:id="stockColumn" prefWidth="75.0" text="Zaliha" />
+                  <TableColumn fx:id="pegiColumn" prefWidth="75.0" text="PEGI" />
+              </columns>
+            </TableView>
+         </center>
+         <bottom>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onAddGame" text="Dodaj igru" />
+                  <Button mnemonicParsing="false" onAction="#onEditGame" text="Uredi igru" />
+                  <Button mnemonicParsing="false" onAction="#onDeleteGame" text="Obriši igru" />
+                  <Button mnemonicParsing="false" onAction="#onLogout" text="Odjava" />
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

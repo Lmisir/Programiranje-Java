@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "customerId": 8,
+    "productId": 1002,
+    "quantity": 1,
+    "totalPrice": 361.59,
+    "orderDate": "2026-07-03"
+  },
+  {
+    "id": 2,
+    "customerId": 5,
+    "productId": 10,
+    "quantity": 3,
+    "totalPrice": 120.87,
+    "orderDate": "2026-07-23"
+  },
+  {
+    "id": 3,
+    "customerId": 1,
+    "productId": 7,
+    "quantity": 1,
+    "totalPrice": 61.1,
+    "orderDate": "2026-08-19"
+  },
+  {
+    "id": 4,
+    "customerId": 3,
+    "productId": 5,
+    "quantity": 2,
+    "totalPrice": 80.04,
+    "orderDate": "2026-07-15"
+  },
+  {
+    "id": 5,
+    "customerId": 3,
+    "productId": 7,
+    "quantity": 3,
+    "totalPrice": 183.3,
+    "orderDate": "2026-08-16"
+  },
+  {
+    "id": 6,
+    "customerId": 3,
+    "productId": 3,
+    "quantity": 3,
+    "totalPrice": 193.47,
+    "orderDate": "2026-07-08"
+  },
+  {
+    "id": 7,
+    "customerId": 8,
+    "productId": 6,
+    "quantity": 1,
+    "totalPrice": 57.52,
+    "orderDate": "2026-08-08"
+  },
+  {
+    "id": 8,
+    "customerId": 10,
+    "productId": 7,
+    "quantity": 2,
+    "totalPrice": 122.2,
+    "orderDate": "2026-07-15"
+  },
+  {
+    "id": 9,
+    "customerId": 8,
+    "productId": 1003,
+    "quantity": 2,
+    "totalPrice": 973.48,
+    "orderDate": "2026-08-20"
+  },
+  {
+    "id": 10,
+    "customerId": 9,
+    "productId": 8,
+    "quantity": 2,
+    "totalPrice": 96.8,
+    "orderDate": "2026-07-02"
+  }
+]

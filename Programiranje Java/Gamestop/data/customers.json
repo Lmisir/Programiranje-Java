@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "firstName": "Petar",
+    "lastName": "Kovac",
+    "email": "petar.kovac1@gmail.com"
+  },
+  {
+    "id": 2,
+    "firstName": "Maja",
+    "lastName": "Horvat",
+    "email": "maja.horvat2@gmail.com"
+  },
+  {
+    "id": 3,
+    "firstName": "Ivan",
+    "lastName": "Novak",
+    "email": "ivan.novak3@gmail.com"
+  },
+  {
+    "id": 4,
+    "firstName": "Ana",
+    "lastName": "Novak",
+    "email": "ana.novak4@gmail.com"
+  },
+  {
+    "id": 5,
+    "firstName": "Marko",
+    "lastName": "Maric",
+    "email": "marko.maric5@gmail.com"
+  },
+  {
+    "id": 6,
+    "firstName": "Ivana",
+    "lastName": "Horvat",
+    "email": "ivana.horvat6@gmail.com"
+  },
+  {
+    "id": 7,
+    "firstName": "Ivana",
+    "lastName": "Maric",
+    "email": "ivana.maric7@gmail.com"
+  },
+  {
+    "id": 8,
+    "firstName": "Marko",
+    "lastName": "Horvat",
+    "email": "marko.horvat8@gmail.com"
+  },
+  {
+    "id": 9,
+    "firstName": "Marko",
+    "lastName": "Novak",
+    "email": "marko.novak9@gmail.com"
+  },
+  {
+    "id": 10,
+    "firstName": "Marko",
+    "lastName": "Babic",
+    "email": "marko.babic10@gmail.com"
+  }
+]

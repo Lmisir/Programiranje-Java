@@ -1,0 +1,16 @@
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\controller\ConsoleController.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\controller\GameController.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\controller\LoginController.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\data\GameStopData.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\Main.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\model\Console.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\model\Customer.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\model\Game.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\model\Identifiable.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\model\Order.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\model\Product.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\repository\GameStopRepository.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\repository\JsonRepository.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\service\GameStopService.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\util\FileExporter.java
+C:\Users\Ryzen\Desktop\JavaMisir\Gamestop\src\main\java\hr\gamestop\util\RandomDataGenerator.java

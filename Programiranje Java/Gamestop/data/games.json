@@ -1,0 +1,83 @@
+[
+  {
+    "platform": "PS4",
+    "genre": "RPG",
+    "pegi": 18,
+    "id": 1,
+    "name": "Cyberpunk 2077",
+    "price": 43.32,
+    "stock": 26
+  },
+  {
+    "platform": "PS5",
+    "genre": "Adventure",
+    "pegi": 3,
+    "id": 3,
+    "name": "Hogwarts Legacy",
+    "price": 64.49,
+    "stock": 22
+  },
+  {
+    "platform": "PC",
+    "genre": "Adventure",
+    "pegi": 18,
+    "id": 4,
+    "name": "GTA V",
+    "price": 63.28,
+    "stock": 21
+  },
+  {
+    "platform": "PC",
+    "genre": "Action",
+    "pegi": 16,
+    "id": 5,
+    "name": "God of War Ragnarok",
+    "price": 40.02,
+    "stock": 25
+  },
+  {
+    "platform": "Xbox Series X",
+    "genre": "Action",
+    "pegi": 18,
+    "id": 6,
+    "name": "Resident Evil 4",
+    "price": 57.52,
+    "stock": 26
+  },
+  {
+    "platform": "PS5",
+    "genre": "Sports",
+    "pegi": 18,
+    "id": 7,
+    "name": "The Witcher 3",
+    "price": 61.1,
+    "stock": 30
+  },
+  {
+    "platform": "PS4",
+    "genre": "Action",
+    "pegi": 7,
+    "id": 8,
+    "name": "Minecraft",
+    "price": 48.4,
+    "stock": 4
+  },
+  {
+    "platform": "PS4",
+    "genre": "RPG",
+    "pegi": 18,
+    "id": 9,
+    "name": "Red Dead Redemption 2",
+    "price": 30.58,
+    "stock": 25
+  },
+  {
+    "platform": "PC",
+    "genre": "RPG",
+    "pegi": 16,
+    "id": 10,
+    "name": "Marvel\u0027s Spider-Man 2",
+    "price": 39.99,
+    "stock": 15
+  }
+]

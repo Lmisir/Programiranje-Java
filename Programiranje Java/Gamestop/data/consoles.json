@@ -1,0 +1,42 @@
+[
+  {
+    "manufacturer": "Microsoft",
+    "storageGb": 825,
+    "id": 1001,
+    "name": "Nintendo Switch",
+    "price": 330.68,
+    "stock": 5
+  },
+  {
+    "manufacturer": "Microsoft",
+    "storageGb": 2000,
+    "id": 1002,
+    "name": "PlayStation 5 Pro",
+    "price": 361.59,
+    "stock": 14
+  },
+  {
+    "manufacturer": "Microsoft",
+    "storageGb": 2000,
+    "id": 1003,
+    "name": "PlayStation 5",
+    "price": 486.74,
+    "stock": 13
+  },
+  {
+    "manufacturer": "Microsoft",
+    "storageGb": 1000,
+    "id": 1004,
+    "name": "Xbox Series X",
+    "price": 722.17,
+    "stock": 5
+  },
+  {
+    "manufacturer": "Sony",
+    "storageGb": 512,
+    "id": 1005,
+    "name": "Xbox Series S",
+    "price": 681.12,
+    "stock": 4
+  }
+]
